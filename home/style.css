@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+     
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 100%;
+    height: 1000px;
+    background-image: url('.././image/ttt.png');
+    margin: auto;
+    padding: 20px;
+    /* margin-top: 5PX;S */
+  }
+  .card{
+    max-width: 35%;
+    background-color:  burlywood; 
+    /* height: 800px; */
+    overflow: hidden;
+    margin: auto;
+  }
+  .card h1{
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .card p{
+    text-align: center;
+    
+  }
+  .card p a{
+    color: #000;
+  }
+  hr{
+    width: 90%;
+    border: 2px solid rgb(148, 40, 40);
+  }
+  .card-coffee{
+    width: 100%;
+    overflow: hidden;
+    
+  }
+  .card-coffee h2{
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .image{
+    width: 10%;
+    height: 10%;
+    margin: auto;
+  }
+  .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .card-text{
+    width: 90%;
+    
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .text{
+    width: 50%;
+    
+  }
+  .text p{
+    font-size: 20px;
+    text-align: start;
+    margin-top: 20px;
+  }
+  .price{
+    width: 30%;
+  }
+  .price p{
+    font-size: 20px;
+    text-align: end;
+    margin-top: 20px;
+  }
